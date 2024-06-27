@@ -1,0 +1,29 @@
+{
+  "sms": {
+    "appId": "app1",
+    "notificationType": "SMS",
+    "message": "This is a test message from The Notification service.",
+    "destinations": [
+      "+962XXXXXXXXX"
+    ]
+  },
+  "whatsapp": {
+    "appId": "app1",
+    "notificationType": "WHATSAPP",
+    "message": "This is a test message from The Notification service.",
+    "destinations": [],
+    "destination": "+962XXXXXXXXX"
+  },
+  "email": {
+    "appId": "app1",
+    "notificationType": "EMAIL",
+    "subject": "Test email from notification service",
+    "message": "This is a test message from The Notification service.",
+    "htmlBody": null,
+    "destinations": [
+      "XX@XX.com"
+    ]
+  }
+}
+
+
