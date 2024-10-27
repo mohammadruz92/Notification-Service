@@ -1,0 +1,222 @@
+2024-10-09T18:53:47.941+03:00  INFO 22916 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Starting Application using Java 17.0.10 with PID 22916 (E:\source\PST-Digital-Banking\NotificationService\target\classes started by Mohammad in E:\source\PST-Digital-Banking\NotificationService)
+2024-10-09T18:53:47.945+03:00  INFO 22916 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : The following 1 profile is active: "dev"
+2024-10-09T18:53:48.030+03:00  INFO 22916 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09T18:53:48.030+03:00  INFO 22916 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09T18:53:49.337+03:00  INFO 22916 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09T18:53:49.387+03:00  INFO 22916 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 0 JPA repository interfaces.
+2024-10-09T18:53:50.619+03:00  INFO 22916 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-09T18:53:50.639+03:00  INFO 22916 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-09T18:53:50.639+03:00  INFO 22916 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-09T18:53:50.721+03:00  INFO 22916 --- [notification.service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-10-09T18:53:50.721+03:00  INFO 22916 --- [notification.service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2689 ms
+2024-10-09T18:53:50.988+03:00  INFO 22916 --- [notification.service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09T18:53:51.070+03:00  INFO 22916 --- [notification.service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-09T18:53:51.116+03:00  INFO 22916 --- [notification.service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-09T18:53:51.592+03:00  INFO 22916 --- [notification.service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-09T18:53:51.642+03:00  WARN 22916 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-10-09T18:53:51.642+03:00  INFO 22916 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-09T18:53:51.869+03:00  INFO 22916 --- [notification.service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f9efcf
+2024-10-09T18:53:51.871+03:00  INFO 22916 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-09T18:53:51.933+03:00  WARN 22916 --- [notification.service] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.17 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-09T18:53:52.358+03:00  INFO 22916 --- [notification.service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-09T18:53:52.364+03:00  INFO 22916 --- [notification.service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T18:53:52.949+03:00  WARN 22916 --- [notification.service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09T18:53:53.527+03:00  INFO 22916 --- [notification.service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-09T18:53:53.571+03:00 DEBUG 22916 --- [notification.service] [restartedMain] .a.r.l.a.MessagingMessageListenerAdapter : Inferred argument type for public void com.pst.notification.service.service.EmailService.sendEmail(com.pst.notification.service.payload.EmailDetails) is class com.pst.notification.service.payload.EmailDetails
+2024-10-09T18:53:53.588+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+2024-10-09T18:53:53.622+03:00  INFO 22916 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/api'
+2024-10-09T18:53:53.624+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Starting Rabbit listener container.
+2024-10-09T18:53:53.629+03:00  INFO 22916 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:53:53.705+03:00  INFO 22916 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#33914c84:0/SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321]
+2024-10-09T18:53:53.711+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Initializing declarations
+2024-10-09T18:53:53.749+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@127.0.0.1:5672/,1)
+2024-10-09T18:53:53.767+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$1249/0x000002bd817b3788 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321]
+2024-10-09T18:53:53.768+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'email_exchange'
+2024-10-09T18:53:53.772+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'email_queue'
+2024-10-09T18:53:53.777+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [email_queue (QUEUE)] to exchange [email_exchange] with routing key [email_routing_key]
+2024-10-09T18:53:53.784+03:00 DEBUG 22916 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Declarations finished
+2024-10-09T18:53:53.798+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$1257/0x000002bd817b9d10 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321]
+2024-10-09T18:53:53.811+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@2e4f1d69: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:53.830+03:00 DEBUG 22916 --- [notification.service] [pool-2-thread-3] o.s.a.r.listener.BlockingQueueConsumer   : ConsumeOK: Consumer@2e4f1d69: tags=[[amq.ctag-5-l4yq8a8piWx6gsZ_aR9A]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:53.829+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Started on queue 'email_queue' with tag amq.ctag-5-l4yq8a8piWx6gsZ_aR9A: Consumer@2e4f1d69: tags=[[amq.ctag-5-l4yq8a8piWx6gsZ_aR9A]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:53.852+03:00  INFO 22916 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Started Application in 6.788 seconds (process running for 7.579)
+2024-10-09T18:54:25.873+03:00  INFO 22916 --- [notification.service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-09T18:54:25.873+03:00  INFO 22916 --- [notification.service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-09T18:54:25.875+03:00  INFO 22916 --- [notification.service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-09T18:54:26.097+03:00  WARN 22916 --- [notification.service] [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource email/send.]
+2024-10-09T18:54:50.662+03:00 DEBUG 22916 --- [notification.service] [http-nio-8081-exec-2] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@127.0.0.1:5672/,2)
+2024-10-09T18:54:50.663+03:00 DEBUG 22916 --- [notification.service] [http-nio-8081-exec-2] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$1308/0x000002bd818491d8 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,2), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321]
+2024-10-09T18:54:50.701+03:00 DEBUG 22916 --- [notification.service] [http-nio-8081-exec-2] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@ab5fe4a(byte[1396])' MessageProperties [headers={__TypeId__=com.pst.notification.service.payload.EmailDetails}, contentType=application/json, contentEncoding=UTF-8, contentLength=1396, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [email_exchange], routingKey = [email_routing_key]
+2024-10-09T18:54:50.770+03:00 DEBUG 22916 --- [notification.service] [pool-2-thread-4] o.s.a.r.listener.BlockingQueueConsumer   : Storing delivery for consumerTag: 'amq.ctag-5-l4yq8a8piWx6gsZ_aR9A' with deliveryTag: '1' in Consumer@2e4f1d69: tags=[[amq.ctag-5-l4yq8a8piWx6gsZ_aR9A]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:54:50.771+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Received message: (Body:'[B@6cba6171(byte[1396])' MessageProperties [headers={__TypeId__=com.pst.notification.service.payload.EmailDetails}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=email_exchange, receivedRoutingKey=email_routing_key, deliveryTag=1, consumerTag=amq.ctag-5-l4yq8a8piWx6gsZ_aR9A, consumerQueue=email_queue])
+2024-10-09T18:54:50.816+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] .a.r.l.a.MessagingMessageListenerAdapter : Processing [GenericMessage [payload=EmailDetails(recipient=maburuz@pst.jo, messageBody=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome, mohammad abrz!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome, mohammad abrz!</h1>
+    </header>
+    <div class="content">
+        <p>We're glad to have you here.</p>
+        <p>Thank you for joining us!</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 PST. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+, subject=Test email from notification service), headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=email_exchange, amqp_deliveryTag=1, amqp_consumerQueue=email_queue, amqp_redelivered=false, amqp_receivedRoutingKey=email_routing_key, amqp_contentEncoding=UTF-8, id=4886d94b-e738-627d-ae48-9a2499030aff, amqp_consumerTag=amq.ctag-5-l4yq8a8piWx6gsZ_aR9A, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.pst.notification.service.payload.EmailDetails, timestamp=1728489290814}]]
+2024-10-09T18:54:53.920+03:00  INFO 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.p.n.service.service.EmailService       : Mail sent successfully
+2024-10-09T18:58:57.555+03:00 DEBUG 22916 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutting down Rabbit listener container
+2024-10-09T18:58:57.573+03:00 DEBUG 22916 --- [notification.service] [pool-2-thread-5] o.s.a.r.listener.BlockingQueueConsumer   : Received cancelOk for tag amq.ctag-5-l4yq8a8piWx6gsZ_aR9A (email_queue); Consumer@2e4f1d69: tags=[[amq.ctag-5-l4yq8a8piWx6gsZ_aR9A]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:58:57.576+03:00  INFO 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-10-09T18:58:58.337+03:00  INFO 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-10-09T18:58:58.338+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Cancelling Consumer@2e4f1d69: tags=[[amq.ctag-5-l4yq8a8piWx6gsZ_aR9A]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:58:58.340+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Closing Rabbit Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@d21decf Shared Rabbit Connection: SimpleConnection@7441ecf6 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51321]
+2024-10-09T18:58:58.340+03:00 DEBUG 22916 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Closing cached Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1)
+2024-10-09T18:58:59.310+03:00 DEBUG 22916 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.c.CachingConnectionFactory       : Closing cached Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,2)
+2024-10-09T18:58:59.321+03:00 DEBUG 22916 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2024-10-09T18:58:59.324+03:00  INFO 22916 --- [notification.service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T18:58:59.330+03:00  INFO 22916 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-09T18:58:59.342+03:00  INFO 22916 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-09T19:00:48.231+03:00  INFO 13612 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Starting Application using Java 17.0.10 with PID 13612 (E:\source\PST-Digital-Banking\NotificationService\target\classes started by Mohammad in E:\source\PST-Digital-Banking\NotificationService)
+2024-10-09T19:00:48.236+03:00  INFO 13612 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : The following 1 profile is active: "dev"
+2024-10-09T19:00:48.355+03:00  INFO 13612 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09T19:00:48.356+03:00  INFO 13612 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09T19:00:49.684+03:00  INFO 13612 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09T19:00:49.721+03:00  INFO 13612 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2024-10-09T19:00:50.715+03:00  INFO 13612 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-09T19:00:50.733+03:00  INFO 13612 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-09T19:00:50.734+03:00  INFO 13612 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-09T19:00:50.823+03:00  INFO 13612 --- [notification.service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-10-09T19:00:50.824+03:00  INFO 13612 --- [notification.service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2466 ms
+2024-10-09T19:00:51.158+03:00  INFO 13612 --- [notification.service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09T19:00:51.305+03:00  INFO 13612 --- [notification.service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-09T19:00:51.374+03:00  INFO 13612 --- [notification.service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-09T19:00:51.863+03:00  INFO 13612 --- [notification.service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-09T19:00:51.910+03:00  WARN 13612 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-10-09T19:00:51.911+03:00  INFO 13612 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-09T19:00:52.189+03:00  INFO 13612 --- [notification.service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c4a084c
+2024-10-09T19:00:52.191+03:00  INFO 13612 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-09T19:00:52.284+03:00  WARN 13612 --- [notification.service] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.17 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-09T19:00:52.775+03:00  INFO 13612 --- [notification.service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-09T19:00:52.781+03:00  INFO 13612 --- [notification.service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T19:00:53.411+03:00  WARN 13612 --- [notification.service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09T19:00:54.017+03:00  INFO 13612 --- [notification.service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-09T19:00:54.072+03:00 DEBUG 13612 --- [notification.service] [restartedMain] .a.r.l.a.MessagingMessageListenerAdapter : Inferred argument type for public void com.pst.notification.service.service.EmailService.sendEmail(com.pst.notification.service.payload.EmailDetails) is class com.pst.notification.service.payload.EmailDetails
+2024-10-09T19:00:54.093+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+2024-10-09T19:00:54.138+03:00  INFO 13612 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/api'
+2024-10-09T19:00:54.141+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Starting Rabbit listener container.
+2024-10-09T19:00:54.147+03:00  INFO 13612 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T19:00:54.241+03:00  INFO 13612 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2a9eb9aa:0/SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337]
+2024-10-09T19:00:54.246+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Initializing declarations
+2024-10-09T19:00:54.292+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@127.0.0.1:5672/,1)
+2024-10-09T19:00:54.311+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$1273/0x000001c7497cd528 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337]
+2024-10-09T19:00:54.311+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'email_exchange'
+2024-10-09T19:00:54.315+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'email_queue'
+2024-10-09T19:00:54.319+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [email_queue (QUEUE)] to exchange [email_exchange] with routing key [email_routing_key]
+2024-10-09T19:00:54.324+03:00 DEBUG 13612 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Declarations finished
+2024-10-09T19:00:54.335+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$1281/0x000001c7497d3af8 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337]
+2024-10-09T19:00:54.347+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@12565c92: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T19:00:54.365+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Started on queue 'email_queue' with tag amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q: Consumer@12565c92: tags=[[]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337], acknowledgeMode=AUTO local queue size=0
+2024-10-09T19:00:54.366+03:00 DEBUG 13612 --- [notification.service] [pool-2-thread-3] o.s.a.r.listener.BlockingQueueConsumer   : ConsumeOK: Consumer@12565c92: tags=[[amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337], acknowledgeMode=AUTO local queue size=0
+2024-10-09T19:00:54.384+03:00  INFO 13612 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Started Application in 6.991 seconds (process running for 8.088)
+2024-10-09T19:01:06.946+03:00  INFO 13612 --- [notification.service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-09T19:01:06.947+03:00  INFO 13612 --- [notification.service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-09T19:01:06.949+03:00  INFO 13612 --- [notification.service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-09T19:01:07.275+03:00 DEBUG 13612 --- [notification.service] [http-nio-8081-exec-1] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@127.0.0.1:5672/,2)
+2024-10-09T19:01:07.276+03:00 DEBUG 13612 --- [notification.service] [http-nio-8081-exec-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitTemplate$$Lambda$1326/0x000001c74985ab18 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,2), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337]
+2024-10-09T19:01:07.297+03:00 DEBUG 13612 --- [notification.service] [http-nio-8081-exec-1] o.s.amqp.rabbit.core.RabbitTemplate      : Publishing message [(Body:'[B@6bd3331a(byte[1396])' MessageProperties [headers={__TypeId__=com.pst.notification.service.payload.EmailDetails}, contentType=application/json, contentEncoding=UTF-8, contentLength=1396, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])] on exchange [email_exchange], routingKey = [email_routing_key]
+2024-10-09T19:01:07.318+03:00 DEBUG 13612 --- [notification.service] [pool-2-thread-4] o.s.a.r.listener.BlockingQueueConsumer   : Storing delivery for consumerTag: 'amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q' with deliveryTag: '1' in Consumer@12565c92: tags=[[amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337], acknowledgeMode=AUTO local queue size=0
+2024-10-09T19:01:07.319+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Received message: (Body:'[B@6b3c23c8(byte[1396])' MessageProperties [headers={__TypeId__=com.pst.notification.service.payload.EmailDetails}, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=email_exchange, receivedRoutingKey=email_routing_key, deliveryTag=1, consumerTag=amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q, consumerQueue=email_queue])
+2024-10-09T19:01:07.337+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] .a.r.l.a.MessagingMessageListenerAdapter : Processing [GenericMessage [payload=EmailDetails(recipient=maburuz@pst.jo, messageBody=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome, mohammad abrz!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome, mohammad abrz!</h1>
+    </header>
+    <div class="content">
+        <p>We're glad to have you here.</p>
+        <p>Thank you for joining us!</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 PST. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+, subject=Test email from notification service), headers={amqp_receivedDeliveryMode=PERSISTENT, amqp_receivedExchange=email_exchange, amqp_deliveryTag=1, amqp_consumerQueue=email_queue, amqp_redelivered=false, amqp_receivedRoutingKey=email_routing_key, amqp_contentEncoding=UTF-8, id=3bbf08e2-afda-497a-bbe7-9281d1effe96, amqp_consumerTag=amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q, amqp_lastInBatch=false, contentType=application/json, __TypeId__=com.pst.notification.service.payload.EmailDetails, timestamp=1728489667336}]]
+2024-10-09T19:01:09.797+03:00  INFO 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.p.n.service.service.EmailService       : Mail sent successfully
+2024-10-09T19:01:09.798+03:00  INFO 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.p.n.service.service.EmailService       : Echo Triggered
+2024-10-09T19:03:51.415+03:00 DEBUG 13612 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutting down Rabbit listener container
+2024-10-09T19:03:51.417+03:00  INFO 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-10-09T19:03:51.417+03:00 DEBUG 13612 --- [notification.service] [pool-2-thread-5] o.s.a.r.listener.BlockingQueueConsumer   : Received cancelOk for tag amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q (email_queue); Consumer@12565c92: tags=[[amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337], acknowledgeMode=AUTO local queue size=0
+2024-10-09T19:03:51.486+03:00  INFO 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-10-09T19:03:51.486+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Cancelling Consumer@12565c92: tags=[[amq.ctag-YQOTXHSvh5XyD0_rd-mO9Q]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337], acknowledgeMode=AUTO local queue size=0
+2024-10-09T19:03:51.487+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Closing Rabbit Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@476b44df Shared Rabbit Connection: SimpleConnection@f6e8d06 [delegate=amqp://guest@127.0.0.1:5672/, localPort=52337]
+2024-10-09T19:03:51.487+03:00 DEBUG 13612 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Closing cached Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1)
+2024-10-09T19:03:51.768+03:00 DEBUG 13612 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.c.CachingConnectionFactory       : Closing cached Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,2)
+2024-10-09T19:03:51.774+03:00 DEBUG 13612 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2024-10-09T19:03:51.775+03:00  INFO 13612 --- [notification.service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T19:03:51.779+03:00  INFO 13612 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-09T19:03:51.785+03:00  INFO 13612 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

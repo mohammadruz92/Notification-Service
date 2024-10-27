@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
 
-
+@Data
 @NoArgsConstructor
 public class NotificationError {
 
@@ -14,35 +14,4 @@ public class NotificationError {
   private int statusCode = HttpStatus.INTERNAL_SERVER_ERROR.value();
   private List<String> errors;
 
-  public String getMessage() {
-    return message;
-  }
-
-  public void setMessage(String message) {
-    this.message = message;
-  }
-
-  public HttpStatus getStatus() {
-    return status;
-  }
-
-  public void setStatus(HttpStatus status) {
-    this.status = status;
-  }
-
-  public int getStatusCode() {
-    return statusCode;
-  }
-
-  public void setStatusCode(int statusCode) {
-    this.statusCode = statusCode;
-  }
-
-  public List<String> getErrors() {
-    return errors;
-  }
-
-  public void setErrors(List<String> errors) {
-    this.errors = errors;
-  }
 }

@@ -1,0 +1,278 @@
+2024-10-09T18:52:44.186+03:00  INFO 10340 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Starting Application using Java 17.0.10 with PID 10340 (E:\source\PST-Digital-Banking\NotificationService\target\classes started by Mohammad in E:\source\PST-Digital-Banking\NotificationService)
+2024-10-09T18:52:44.189+03:00  INFO 10340 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : The following 1 profile is active: "dev"
+2024-10-09T18:52:44.265+03:00  INFO 10340 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09T18:52:44.265+03:00  INFO 10340 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09T18:52:45.550+03:00  INFO 10340 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09T18:52:45.596+03:00  INFO 10340 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
+2024-10-09T18:52:46.697+03:00  INFO 10340 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-09T18:52:46.718+03:00  INFO 10340 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-09T18:52:46.718+03:00  INFO 10340 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-09T18:52:46.794+03:00  INFO 10340 --- [notification.service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-10-09T18:52:46.794+03:00  INFO 10340 --- [notification.service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2527 ms
+2024-10-09T18:52:47.108+03:00  INFO 10340 --- [notification.service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09T18:52:47.258+03:00  INFO 10340 --- [notification.service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-09T18:52:47.329+03:00  INFO 10340 --- [notification.service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-09T18:52:47.825+03:00  INFO 10340 --- [notification.service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-09T18:52:47.876+03:00  WARN 10340 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-10-09T18:52:47.877+03:00  INFO 10340 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-09T18:52:48.149+03:00  INFO 10340 --- [notification.service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15e9bd6b
+2024-10-09T18:52:48.151+03:00  INFO 10340 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-09T18:52:48.236+03:00  WARN 10340 --- [notification.service] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.17 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-09T18:52:48.734+03:00  INFO 10340 --- [notification.service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-09T18:52:48.742+03:00  INFO 10340 --- [notification.service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T18:52:49.884+03:00  WARN 10340 --- [notification.service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09T18:52:51.028+03:00  INFO 10340 --- [notification.service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-09T18:52:51.069+03:00 DEBUG 10340 --- [notification.service] [restartedMain] .a.r.l.a.MessagingMessageListenerAdapter : Inferred argument type for public void com.pst.notification.service.service.EmailService.sendEmail(com.pst.notification.service.payload.EmailDetails) is class com.pst.notification.service.payload.EmailDetails
+2024-10-09T18:52:51.086+03:00 DEBUG 10340 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+2024-10-09T18:52:51.128+03:00  INFO 10340 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/api'
+2024-10-09T18:52:51.130+03:00 DEBUG 10340 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Starting Rabbit listener container.
+2024-10-09T18:52:51.134+03:00  INFO 10340 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:52:51.151+03:00  INFO 10340 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2024-10-09T18:52:51.163+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:52:51.166+03:00 ERROR 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2249) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2222) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2202) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:467) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:451) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1960) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1924) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1479) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1320) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.21.0.jar:5.21.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	... 12 common frames omitted
+
+2024-10-09T18:52:51.184+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@244fe392: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:52:51.187+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:52:51.189+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Recovering consumer in 5000 ms.
+2024-10-09T18:52:51.207+03:00  INFO 10340 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Started Application in 7.817 seconds (process running for 8.847)
+2024-10-09T18:52:56.202+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$RabbitResourceFactory.createConnection(ConnectionFactoryUtils.java:345) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:140) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:102) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:85) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:626) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1480) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1320) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.21.0.jar:5.21.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	... 10 common frames omitted
+
+2024-10-09T18:52:56.204+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@244fe392: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:52:56.205+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Closing Rabbit Channel: null
+2024-10-09T18:52:56.207+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:52:56.208+03:00 ERROR 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2024-10-09T18:52:56.209+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@29ee0a2d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:52:56.209+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:52:56.211+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Recovering consumer in 5000 ms.
+2024-10-09T18:53:01.316+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$RabbitResourceFactory.createConnection(ConnectionFactoryUtils.java:345) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:140) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:102) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:85) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:626) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1480) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1320) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.21.0.jar:5.21.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	... 10 common frames omitted
+
+2024-10-09T18:53:01.317+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@29ee0a2d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:01.317+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.listener.BlockingQueueConsumer   : Closing Rabbit Channel: null
+2024-10-09T18:53:01.318+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:53:01.331+03:00 ERROR 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2024-10-09T18:53:01.332+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@57dbd26c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:01.332+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:53:01.347+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Recovering consumer in 5000 ms.
+2024-10-09T18:53:06.457+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it
+
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$RabbitResourceFactory.createConnection(ConnectionFactoryUtils.java:345) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:140) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:102) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:85) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:626) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1480) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1320) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:61) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1249) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.21.0.jar:5.21.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	... 10 common frames omitted
+
+2024-10-09T18:53:06.458+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@57dbd26c: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:06.459+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3] o.s.a.r.listener.BlockingQueueConsumer   : Closing Rabbit Channel: null
+2024-10-09T18:53:06.460+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:53:06.487+03:00 ERROR 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s).
+2024-10-09T18:53:06.488+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@2c640d07: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:06.488+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:53:06.495+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Recovering consumer in 5000 ms.
+2024-10-09T18:53:06.718+03:00 DEBUG 10340 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutting down Rabbit listener container
+2024-10-09T18:53:06.719+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-10-09T18:53:06.721+03:00  INFO 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-5] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-10-09T18:53:06.916+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it
+
+org.springframework.amqp.AmqpIOException: java.io.IOException
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:622) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:726) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils$RabbitResourceFactory.createConnection(ConnectionFactoryUtils.java:345) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.doGetTransactionalResourceHolder(ConnectionFactoryUtils.java:140) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:102) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.getTransactionalResourceHolder(ConnectionFactoryUtils.java:85) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.BlockingQueueConsumer.start(BlockingQueueConsumer.java:626) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1480) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1320) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.io.IOException: null
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:140) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.impl.AMQChannel.wrap(AMQChannel.java:136) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:406) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1251) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1198) ~[amqp-client-5.21.0.jar:5.21.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:668) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:637) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:584) ~[spring-rabbit-3.1.6.jar:3.1.6]
+	... 10 common frames omitted
+Caused by: com.rabbitmq.client.ShutdownSignalException: connection error
+	at com.rabbitmq.utility.ValueOrException.getValue(ValueOrException.java:66) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.utility.BlockingValueOrException.uninterruptibleGetValue(BlockingValueOrException.java:36) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.impl.AMQChannel$BlockingRpcContinuation.getReply(AMQChannel.java:552) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.impl.AMQConnection.start(AMQConnection.java:336) ~[amqp-client-5.21.0.jar:5.21.0]
+	... 15 common frames omitted
+Caused by: java.io.EOFException: null
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:290) ~[na:na]
+	at com.rabbitmq.client.impl.Frame.readFrom(Frame.java:91) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.impl.SocketFrameHandler.readFrame(SocketFrameHandler.java:199) ~[amqp-client-5.21.0.jar:5.21.0]
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:687) ~[amqp-client-5.21.0.jar:5.21.0]
+	... 1 common frames omitted
+
+2024-10-09T18:53:06.922+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.l.SimpleMessageListenerContainer : Cancelling Consumer@2c640d07: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:06.924+03:00 DEBUG 10340 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-4] o.s.a.r.listener.BlockingQueueConsumer   : Closing Rabbit Channel: null
+2024-10-09T18:53:07.315+03:00 DEBUG 10340 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2024-10-09T18:53:07.318+03:00  INFO 10340 --- [notification.service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T18:53:07.324+03:00  INFO 10340 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-09T18:53:07.338+03:00  INFO 10340 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-09T18:53:10.961+03:00  INFO 14328 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Starting Application using Java 17.0.10 with PID 14328 (E:\source\PST-Digital-Banking\NotificationService\target\classes started by Mohammad in E:\source\PST-Digital-Banking\NotificationService)
+2024-10-09T18:53:10.966+03:00  INFO 14328 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : The following 1 profile is active: "dev"
+2024-10-09T18:53:11.064+03:00  INFO 14328 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09T18:53:11.065+03:00  INFO 14328 --- [notification.service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09T18:53:12.717+03:00  INFO 14328 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09T18:53:12.764+03:00  INFO 14328 --- [notification.service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2024-10-09T18:53:13.830+03:00  INFO 14328 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-10-09T18:53:13.848+03:00  INFO 14328 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-09T18:53:13.848+03:00  INFO 14328 --- [notification.service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-09T18:53:13.923+03:00  INFO 14328 --- [notification.service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2024-10-09T18:53:13.924+03:00  INFO 14328 --- [notification.service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2857 ms
+2024-10-09T18:53:14.172+03:00  INFO 14328 --- [notification.service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09T18:53:14.252+03:00  INFO 14328 --- [notification.service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-09T18:53:14.305+03:00  INFO 14328 --- [notification.service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-09T18:53:14.701+03:00  INFO 14328 --- [notification.service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-09T18:53:14.733+03:00  WARN 14328 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2024-10-09T18:53:14.733+03:00  INFO 14328 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-09T18:53:14.978+03:00  INFO 14328 --- [notification.service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ecc45e6
+2024-10-09T18:53:14.981+03:00  INFO 14328 --- [notification.service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-09T18:53:15.050+03:00  WARN 14328 --- [notification.service] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.17 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-10-09T18:53:15.473+03:00  INFO 14328 --- [notification.service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-09T18:53:15.479+03:00  INFO 14328 --- [notification.service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T18:53:16.089+03:00  WARN 14328 --- [notification.service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09T18:53:16.639+03:00  INFO 14328 --- [notification.service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-09T18:53:16.681+03:00 DEBUG 14328 --- [notification.service] [restartedMain] .a.r.l.a.MessagingMessageListenerAdapter : Inferred argument type for public void com.pst.notification.service.service.EmailService.sendEmail(com.pst.notification.service.payload.EmailDetails) is class com.pst.notification.service.payload.EmailDetails
+2024-10-09T18:53:16.694+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : No global properties bean
+2024-10-09T18:53:16.731+03:00  INFO 14328 --- [notification.service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/api'
+2024-10-09T18:53:16.733+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.a.r.l.SimpleMessageListenerContainer : Starting Rabbit listener container.
+2024-10-09T18:53:16.737+03:00  INFO 14328 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-10-09T18:53:16.870+03:00  INFO 14328 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#24aa56d3:0/SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301]
+2024-10-09T18:53:16.875+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Initializing declarations
+2024-10-09T18:53:16.936+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Creating cached Rabbit Channel from AMQChannel(amqp://guest@127.0.0.1:5672/,1)
+2024-10-09T18:53:16.949+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$1250/0x000001d1e07b2680 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4062cb3d Shared Rabbit Connection: SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301]
+2024-10-09T18:53:16.949+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Exchange 'email_exchange'
+2024-10-09T18:53:16.953+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : declaring Queue 'email_queue'
+2024-10-09T18:53:16.956+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Binding destination [email_queue (QUEUE)] to exchange [email_exchange] with routing key [email_routing_key]
+2024-10-09T18:53:16.962+03:00 DEBUG 14328 --- [notification.service] [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Declarations finished
+2024-10-09T18:53:16.974+03:00 DEBUG 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.amqp.rabbit.core.RabbitTemplate      : Executing callback RabbitAdmin$$Lambda$1258/0x000001d1e07b8b10 on RabbitMQ Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4062cb3d Shared Rabbit Connection: SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301]
+2024-10-09T18:53:16.982+03:00 DEBUG 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Starting consumer Consumer@3abbc368: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:17.002+03:00 DEBUG 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Started on queue 'email_queue' with tag amq.ctag-f9c9fllM5KpOyxu5ZLxAmA: Consumer@3abbc368: tags=[[]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4062cb3d Shared Rabbit Connection: SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:17.002+03:00 DEBUG 14328 --- [notification.service] [pool-2-thread-3] o.s.a.r.listener.BlockingQueueConsumer   : ConsumeOK: Consumer@3abbc368: tags=[[amq.ctag-f9c9fllM5KpOyxu5ZLxAmA]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4062cb3d Shared Rabbit Connection: SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:17.018+03:00  INFO 14328 --- [notification.service] [restartedMain] c.pst.notification.service.Application   : Started Application in 6.975 seconds (process running for 8.144)
+2024-10-09T18:53:43.575+03:00 DEBUG 14328 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutting down Rabbit listener container
+2024-10-09T18:53:43.580+03:00 DEBUG 14328 --- [notification.service] [pool-2-thread-4] o.s.a.r.listener.BlockingQueueConsumer   : Received cancelOk for tag amq.ctag-f9c9fllM5KpOyxu5ZLxAmA (email_queue); Consumer@3abbc368: tags=[[amq.ctag-f9c9fllM5KpOyxu5ZLxAmA]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4062cb3d Shared Rabbit Connection: SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:43.580+03:00  INFO 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-10-09T18:53:44.256+03:00  INFO 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-10-09T18:53:44.257+03:00 DEBUG 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.l.SimpleMessageListenerContainer : Cancelling Consumer@3abbc368: tags=[[amq.ctag-f9c9fllM5KpOyxu5ZLxAmA]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4062cb3d Shared Rabbit Connection: SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301], acknowledgeMode=AUTO local queue size=0
+2024-10-09T18:53:44.257+03:00 DEBUG 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.listener.BlockingQueueConsumer   : Closing Rabbit Channel: Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4062cb3d Shared Rabbit Connection: SimpleConnection@26f3af95 [delegate=amqp://guest@127.0.0.1:5672/, localPort=51301]
+2024-10-09T18:53:44.257+03:00 DEBUG 14328 --- [notification.service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] o.s.a.r.c.CachingConnectionFactory       : Closing cached Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1)
+2024-10-09T18:53:44.570+03:00 DEBUG 14328 --- [notification.service] [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2024-10-09T18:53:44.573+03:00  INFO 14328 --- [notification.service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T18:53:44.577+03:00  INFO 14328 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-09T18:53:44.583+03:00  INFO 14328 --- [notification.service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
